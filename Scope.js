@@ -23,3 +23,16 @@ function one(){
     two();
 }
 one(); // Username: Akarsh
+
+//Practice
+if(true) {
+    const username = "Akarsh"
+    if(username === "Akarsh") {
+        const website = "akarsh.me"
+        console.log("Username:", username); // Akarsh
+        console.log("Website:", website); // akarsh.me
+    }
+    //console.log("Website:", website); // ReferenceError: website is not defined - out of scope
+}
+//console.log("Username:", username); // ReferenceError: username is not defined - out of scope
+
