@@ -1,4 +1,6 @@
 //for of loop - This loop is used to iterate over iterable objects like arrays, strings, maps, sets, etc.
+// It is a more modern way to loop through collections in JavaScript.
+//This does not work on objects, for that we use for in loop
 const fruits = ["apple", "banana", "cherry"];
 for (const i of fruits) {
     console.log("Current fruit is: " + i);
