@@ -18,5 +18,6 @@ for (const i in myobject) {
 const fruits = ["apple", "banana", "cherry"];
 
 for (const i in fruits) {
-    console.log("Index: " + i + ", Value: " + fruits[i]);
+    console.log("Index: " + i + ", Value: " + fruits[i]); //console.log (fruits[i]);
 }
+// This will log the index and value of each element in the array
